@@ -1,0 +1,41 @@
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      background: #e0e0e0;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .profile-info {
+      h2 {
+        margin: 0;
+        font-size: 20px;
+      }
+  
+      p {
+        margin: 5px 0;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+  
+      .resume-button {
+        margin-top: 10px;
+        padding: 10px 15px;
+        background: #b296f5;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
+  
